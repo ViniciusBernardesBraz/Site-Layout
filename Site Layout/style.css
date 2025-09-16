@@ -1,0 +1,93 @@
+/*Font Pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Reset Pagina Css*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/*Navegacao*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.Logo{
+    font-size: 25px;
+    font-weight: 300;
+    border-bottom: 1px solid green;
+}
+
+.Icons_Navegacao{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/*Meio Página*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_1{
+    font-size: 130px;
+    font-weight: 500;
+}
+
+.text_2{
+    font-size: 75px;
+    font-weight: 400;
+    color: green;
+}
+
+.text_3{
+    width: 800px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+img{
+    width: 850px;
+}
+
+.container_btns{
+    display: flex;
+    gap: 30px;
+}
+.Explorar{
+    background-color: green;
+    margin-top: 30px;
+    padding: 20px;
+    width: 150px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Visitar{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    width: 150px;
+    border-radius: 50px;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 400;
+}
